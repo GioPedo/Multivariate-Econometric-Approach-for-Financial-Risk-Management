@@ -99,3 +99,8 @@ index_macro = weights_norm(:, 1) .* gold + ...
 
 
 %%%%%%%%% PLOT %%%%%%%%%
+figure(2);
+plot(Fulldates, index_macro, 'Color', 'b', LineWidth=1.8);
+title('Returns Macroeconomic-Financial Index', FontSize=20);
+ylabel('%');
+xtickformat(dateformat);
