@@ -7,6 +7,7 @@ In addition, the research is carried out on the same dataset, but excluding the 
 
 ## Repository Structure
 
+```
 .
 ├── code/                           # Source code for financial analysis
 │ ├── cluster_analysis.py           # Clustering of NASDAQ-100 using KMeans
@@ -20,3 +21,4 @@ In addition, the research is carried out on the same dataset, but excluding the 
 │ └── Presentation_Dissertation.pdf
 │
 └── README.md                       # This file
+```
