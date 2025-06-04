@@ -5,10 +5,10 @@
 % GitHub Publication: June 2025
 %
 % Description:
-% This script builds a macro-financial index using macroeconomic variables
-% (gold, oil, VIX, FVX, CPI, LOIS), by estimating conditional volatility via
-% GARCH(1,1), assigning normalized inverse-volatility weights, and aggregating
-% into a single composite index for the US economy.
+%     This script builds a macro-financial index using macroeconomic variables
+%     (gold, oil, VIX, FVX, CPI, LOIS), by estimating conditional volatility via
+%     GARCH(1,1), assigning normalized inverse-volatility weights, and aggregating
+%     into a single composite index for the US economy.
 %
 % Data sources: Yahoo Finance, Bloomberg, FRED (2019–2024)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
