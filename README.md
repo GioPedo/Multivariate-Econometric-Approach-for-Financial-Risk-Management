@@ -7,7 +7,7 @@ In addition, the research is carried out on the same dataset, but excluding the 
 
 ## Repository Structure
 The repository is organized into two main directories:
-- `code/`, which contains all the scripts used for data processing, econometric modeling, clustering, and risk analysis.
+- `code/`, which contains all the scripts used for data processing, econometric modeling, clustering, and risk analysis;
 - `docs/`, which includes the full thesis and its supporting presentation.
 
 The structure is shown below:
