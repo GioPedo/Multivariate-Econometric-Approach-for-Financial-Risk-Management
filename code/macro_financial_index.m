@@ -13,6 +13,7 @@
 % Data sources: Yahoo Finance, Bloomberg, FRED (2019–2024)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 %% 1. Import Macro-Financial Data
 % Load price series from Excel
 gold_p = readmatrix('Macro_Variables.xlsx', 'Sheet', 'Data', 'Range', 'B2:B1259');
@@ -54,7 +55,6 @@ cpi_d         = inflation_log * 100;
 
 
 %% 3. Group Variables into Cell Arrays (for GARCH loop later)
-
 macro_variables = {gold, wti, vix, fvx, cpi_d, lois};
 macro_variables_names = {'GOLD', 'WTI', 'VIX', 'FVX', 'CPI', 'LOIS'};
 
@@ -84,6 +84,7 @@ for i = 1:numel(macro_variables)
     vol_forecast{i} = sqrt(infer(fits{i}, macro_variables{i}));
 end
 
+
 %% 5. Display Fitted GARCH(1,1) Parameters
 % Print the estimated parameters (omega, alpha, beta) for each macro variable
 for i = 1:numel(macro_variables)
@@ -92,6 +93,7 @@ for i = 1:numel(macro_variables)
     fprintf('Alpha: %.4f\n', parameters_fitted{2, i});
     fprintf('Beta: %.4f\n\n', parameters_fitted{3, i});
 end
+
 
 %% 6. Construct the Macro-Financial Index
 % Use inverse-volatility weights to compute a composite macro index
@@ -115,6 +117,7 @@ index_macro = weights_norm(:, 1) .* gold + ...
               weights_norm(:, 4) .* fvx + ...
               weights_norm(:, 5) .* cpi_d + ...
               weights_norm(:, 6) .* lois;
+
 
 
 %% 📈 VISUALIZATION SECTION
