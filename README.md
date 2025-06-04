@@ -6,6 +6,7 @@ Starting with a set of securities selected through a _machine learning_ (ML) tec
 In addition, the research is carried out on the same dataset, but excluding the most turbulent months of the COVID-19 pandemic in order to analyse _differences_ in both econometric and risk management results.
 
 ## Repository Structure
+
 .
 ├── code/                           # Source code for financial analysis
 │ ├── cluster_analysis.py           # Clustering of NASDAQ-100 using KMeans
