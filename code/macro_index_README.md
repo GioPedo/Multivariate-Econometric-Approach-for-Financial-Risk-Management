@@ -47,7 +47,7 @@ These indicators capture different dimensions of market stress, inflation and ri
 | File                        | Description                                  |
 |-----------------------------|----------------------------------------------|
 | `macro_financial_index.m`   | Main script: data processing, GARCH, index   |
-| `Macro_Variables.xlsx`      | Excel file with raw macro data (if provided) |
+| `Macro_Variables.xlsx`      | Excel file with raw macro data               |
 
 ---
 
