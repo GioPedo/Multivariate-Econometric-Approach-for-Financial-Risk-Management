@@ -6,14 +6,16 @@ Starting with a set of securities selected through a _machine learning_ (ML) tec
 In addition, the research is carried out on the same dataset, but excluding the most turbulent months of the COVID-19 pandemic in order to analyse _differences_ in both econometric and risk management results.
 
 ## Repository Structure
-code/
+.
+├── code/                           # Source code for financial analysis
+│ ├── cluster_analysis.py           # Clustering of NASDAQ-100 using KMeans
+│ ├── macro_financial_index.m       # Construction of macro-financial index with GARCH(1,1)
+│ ├── dcc_garch_models.m            # Implementation of DCC-GARCH dynamic correlation model
+│ ├── VaR_ES.m                      # Calculation of VaR and Expected Shortfall
+│ └── VaR_ES_breaches.m             # Analysis of VaR and ES breaches
 │
-├── cluster_analysis.py       # Clustering of NASDAQ-100 using KMeans
-├── macro_financial_index.m   # Construction of macro-financial index with GARCH(1,1)
-├── dcc_garch_models.m        # Implementation of DCC-GARCH dynamic correlation model
-├── VaR_ES.m                  # Calculation of VaR and Expected Shortfall
-├── VaR_ES_breaches.m         # Analysis of VaR and ES breaches
+├── docs/
+│ ├── MSc_Thesis_Giovanni_Pedone.pdf
+│ └── Presentation_Dissertation.pdf
 │
-docs/
-├── MSc_Thesis_Giovanni_Pedone.pdf
-├── Presentation_Dissertation.pdf
+└── README.md                       # This file
