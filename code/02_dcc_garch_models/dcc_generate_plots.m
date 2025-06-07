@@ -1,1 +1,26 @@
+# =============================================================================
+%% 📈 Final Plot: 90-Day Rolling Window Correlations
+# =============================================================================
+figure;
+stackedplot(rolling_corr_timetable, ...
+    'Color', [0.6350 0.0780 0.1840], ...
+    'LineWidth', 2);
 
+annotation('textbox', [0 0.88 1 0.1], ...
+    'String', ['90-Day Rolling Window Correlations ' ...
+               'between Macroeconomic-Financial Index & Assets'], ...
+    'EdgeColor', 'none', ...
+    'HorizontalAlignment', 'center', ...
+    'FontWeight', 'bold', ...
+    'FontSize', 20);
+
+
+
+# =============================================================================
+%% 📈 1st comparison: Dynamic Correlations – Rolling Window vs. DCC-GARCH
+# =============================================================================
+
+
+# =============================================================================
+%% 📈 2nd comparison: Dynamic Correlations – VAR-DCC-GARCH vs. DCC-GARCH
+# =============================================================================
