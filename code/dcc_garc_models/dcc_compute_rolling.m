@@ -32,8 +32,9 @@ rolling_corr_table = array2timetable(rolling_corr, 'RowTimes', Fulldates_datetim
 rolling_corr_table.Properties.VariableNames = stocks_names;
 
 
-
+# =============================================================================
 %% 📈 Final Plot: 90-Day Rolling Window Correlations
+# =============================================================================
 
 figure(13);
 stackedplot(rolling_corr_timetable, ...
