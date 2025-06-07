@@ -18,6 +18,6 @@
 %
 % NOTE:
 % Requires the MFE Toolbox by Kevin Sheppard:
-% https://github.com/KevinSheppard/MFE_Toolbox
+% https://github.com/bashtage/mfe-toolbox/blob/main/multivariate/dcc.m
 % Add the toolbox to the MATLAB path before running.
 % ------------------------------------------------------------------------
