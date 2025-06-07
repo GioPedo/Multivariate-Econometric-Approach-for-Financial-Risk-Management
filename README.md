@@ -69,13 +69,13 @@ The dynamic conditional correlations estimated through the DCC(1,1) and VAR(1)-D
 - **_reduce frequent regime shifts_** between positive and negative relationships;
 - allow for **_more accurate modelling_** of second-order conditional moments.
 
-Even in the absence of exogenous shocks, the trends across models remain largely overlapping, but _Ex-COVID_ data displays less noisy dynamics and more consistent correlation patterns.
-
 <p align="center">
   <img src="code/02_dcc_garch_models/images/VAR_and_DCC_Correlations_Comparison.jpg"/>
   <br>
   <img src="code/02_dcc_garch_models/images_ex_covid/VAR_and_DCC_Correlations_Comparison_Ex_Covid.jpg"/>
 </p>
+
+Even in the absence of exogenous shocks, the trends across models remain largely overlapping, but _Ex-COVID_ data displays less noisy dynamics and more consistent correlation patterns.
 
 **2. Risk Measures: VaR and ES (COVID vs. Ex-COVID)**
 
@@ -86,14 +86,12 @@ The exclusion of the most volatile pandemic months (Feb–Apr 2020) reveals:
 - a more **_conservative risk profile_** detected by Expected Shortfall (ES), especially during stress conditions;
 - evidence that **_ES is more precise_** than VaR in capturing tail risk, particularly post-COVID-peak.
 
-<div align="center">
 | Measure   | Covid     | Ex-Covid  |
 |-----------|-----------|-----------|
 | **VaR₉₅%**  | −271.34   | −338.05 |
 | **VaR₉₉%**  | −378.82   | −466.59 |
 | **ES₉₅%**   | −337.24   | −416.86 |
 | **ES₉₉%**   | −423.27   | −530.50 |
-</div>
 
 ![Comparison of Losses with VaR and ES](code/03_advanced_risk_management/images/Comparison_of_Losses_with_VaR_and_ES.jpg)
 
