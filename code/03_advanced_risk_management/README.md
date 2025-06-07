@@ -10,9 +10,9 @@ This section extends the portfolio analysis with risk metrics, focusing on the d
 
 ## File Structure
 
-- EW_portfolio.m: creates an equally weighted portfolio and computes daily P&L.
-- VaR_ES.m: estimates dynamic VaR and ES using VAR(1)-DCC-GARCH(1,1).
-- VaR_ES_breaches.m: checks VaR breaches and visualizes exceedances.
+- `EW_portfolio.m`: creates an equally weighted portfolio and computes daily P&L.
+- `VaR_ES.m`: estimates dynamic VaR and ES using VAR(1)-DCC-GARCH(1,1).
+- `VaR_ES_breaches.m`: checks VaR breaches and visualizes exceedances.
 
 ## Sample Output
 
@@ -23,7 +23,7 @@ This section extends the portfolio analysis with risk metrics, focusing on the d
   <br>
   <img src="images/Comparison_of_Losses_with_VaR_and_ES.jpg" width="700"/>
   <br>
-  <img src="images/VVaR_Breaches.jpg" width="700"/>
+  <img src="images/VaR_Breaches.jpg" width="700"/>
   <br>
   <img src="images/ES_Breaches.jpg" width="700"/>
 </p>
