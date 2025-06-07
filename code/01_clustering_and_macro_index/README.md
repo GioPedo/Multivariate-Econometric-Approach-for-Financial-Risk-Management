@@ -12,7 +12,7 @@ This section encompasses the construction of a macro-financial index and the app
 - `macro_financial_index.m`: MATLAB script for index construction.
 - `cluster_analysis.py`: Python script for clustering analysis.
 
-## 🖼️ Sample Output
+## Sample Output
 
 <p align="center">
   <img src="images/Cluster_Scatterplot.png" width="700"/>
