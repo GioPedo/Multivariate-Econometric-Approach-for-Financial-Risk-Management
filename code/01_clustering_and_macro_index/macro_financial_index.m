@@ -119,11 +119,12 @@ index_macro = weights_norm(:, 1) .* gold + ...
               weights_norm(:, 6) .* lois;
 
 
-
+% ========================================================================
 %% 📈 VISUALIZATION SECTION
 % ========================================================================
-% This section plots the resulting macro-financial index constructed
-% using inverse-volatility weights across macroeconomic variables.
+% This section visualizes the daily returns of the macro-financial index
+% previously constructed using inverse-volatility weighted aggregation 
+% of selected macroeconomic and financial variables.
 % ========================================================================
 figure;
 plot(Fulldates, index_macro, 'Color', 'b', 'LineWidth', 1.8);
