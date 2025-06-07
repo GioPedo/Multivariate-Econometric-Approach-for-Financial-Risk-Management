@@ -56,7 +56,7 @@ contains an `images/` folder that stores the plots generated within that specifi
   - Statistics and Machine Learning Toolbox
   - Financial Toolbox
   - **MFE Toolbox by Kevin Sheppard** (for `dcc.m`)  
-    → [MFE Toolbox - dcc.m](https://github.com/bashtage/mfe-toolbox/blob/main/multivariate/dcc.m), _make sure to add the toolbox to the MATLAB path before running any script._
+    → [MFE Toolbox - dcc.m](https://github.com/bashtage/mfe-toolbox/blob/main/multivariate/dcc.m), _make sure to add the toolbox to the MATLAB path before running any script_
 
 
 ## Main Outputs
