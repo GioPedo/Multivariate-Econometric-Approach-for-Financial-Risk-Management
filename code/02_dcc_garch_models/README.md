@@ -46,5 +46,5 @@ In addition to the full-sample analysis, we replicate the entire risk estimation
 <p align="center">
   <img src="images_ex_covid/DCC_and_Rolling_Correlations_Comparison_Ex_Covid.jpg" width="700"/>
   <br>
-  <img src="images_ex_covid/VAR_and_DCC_Correlations_Comparison.jpg" width="700"/>
+  <img src="images_ex_covid/VAR_and_DCC_Correlations_Comparison_Ex_Covid.jpg" width="700"/>
 </p>
