@@ -42,15 +42,6 @@ These indicators capture different dimensions of market stress, inflation and ri
 
 ---
 
-## File Structure
-
-| File                        | Description                                  |
-|-----------------------------|----------------------------------------------|
-| `macro_financial_index.m`   | Main script: data processing, GARCH, index   |
-| `Macro_Variables.xlsx`      | Excel file with raw macro data               |
-
----
-
 ## Time Horizon
 
 - Frequency: **Daily**
@@ -72,12 +63,3 @@ These indicators capture different dimensions of market stress, inflation and ri
 - Spyder (Python IDE)
 - MATLAB (Financial Toolbox)
 - FRED API access (via `fetch`)
-
----
-
-## Author
-
-Giovanni Pedone  
-Thesis Project, MSc Finance – University of Trento  
-GitHub Publication: **June 2025**
-
