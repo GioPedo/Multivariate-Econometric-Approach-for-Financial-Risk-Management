@@ -18,6 +18,7 @@ The structure is shown below:
 │ ├── cluster_analysis.py             # Clustering of NASDAQ-100 using KMeans
 │ ├── macro_financial_index.m         # Macro-financial index with GARCH(1,1) weights
 │ └── macro_index_README.md
+│ └── README.md
 │
 ├── 02_dcc_garch_models/
 │ ├── dcc_main_driver.m               # Master script for DCC/VAR pipeline
@@ -38,7 +39,9 @@ The structure is shown below:
 ├── MSc_Thesis_Giovanni_Pedone.pdf
 └── Presentation_Dissertation.pdf
 │
-└── README.md                       # This file
+└── README.md                         # This file
+
+_Each main subdirectory (e.g., `01_clustering_and_macro_index`, `02_dcc_garch_models`, `03_advanced_risk_management`) contains an `images/` folder that stores the plots generated within that specific study section._
 ```
 
 ## How to Run
@@ -47,7 +50,7 @@ The structure is shown below:
 - **Python 3.11** (or later recommended)
   - [Anaconda](https://www.anaconda.com/) (recommended for package management)  
   - IDE: Spyder (used in development)  
-- **MATLAB** (R2023a or later recommended)
+- **MATLAB R2023a** (or later recommended)
   - Econometrics Toolbox
   - Statistics and Machine Learning Toolbox
   - Financial Toolbox
