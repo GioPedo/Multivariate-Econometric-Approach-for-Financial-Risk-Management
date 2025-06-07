@@ -125,7 +125,7 @@ index_macro = weights_norm(:, 1) .* gold + ...
 % This section plots the resulting macro-financial index constructed
 % using inverse-volatility weights across macroeconomic variables.
 % ========================================================================
-figure(2);
+figure;
 plot(Fulldates, index_macro, 'Color', 'b', 'LineWidth', 1.8);
 title('Returns Macro-Financial Index', 'FontSize', 20);
 ylabel('%');
