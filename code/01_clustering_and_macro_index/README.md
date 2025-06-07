@@ -4,8 +4,8 @@ This section encompasses the construction of a macro-financial index and the app
 
 ## Overview
 
-- **Macro-Financial Index**: Combines economic and financial indicators (e.g., VIX, CPI, GOLD) using volatility-based weights derived from GARCH models.
-- **Clustering Analysis**: Applies K-Means clustering on log returns of NASDAQ tech stocks to identify homogeneous groups.
+- **Macro-Financial Index**: combines economic and financial indicators (e.g., VIX, CPI, GOLD) using volatility-based weights derived from GARCH models.
+- **Clustering Analysis**: applies K-Means clustering on log returns of NASDAQ tech stocks to identify homogeneous groups.
 
 ## File Structure
 
