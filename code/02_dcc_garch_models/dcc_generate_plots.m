@@ -15,7 +15,6 @@ annotation('textbox', [0 0.88 1 0.1], ...
     'FontSize', 20);
 
 
-
 % =============================================================================
 %% 📈 1st comparison: Dynamic Correlations – Rolling Window vs. DCC-GARCH
 % =============================================================================
@@ -34,7 +33,6 @@ annotation('textbox', [0 0.905 1 0.1], 'String', ...
         'Comparison of DCC-GARCH(1,1) and 90-Day Rolling Window Correlations', ...
         'EdgeColor', 'none', 'HorizontalAlignment', 'center', ...
         'FontWeight', 'bold', FontSize=18);
-
 
 
 % =============================================================================
