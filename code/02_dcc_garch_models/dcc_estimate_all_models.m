@@ -4,7 +4,7 @@
 % OUTPUTS:
 %     - parameters_* : estimated model parameters.
 %     - ll_*         : log-likelihood value.
-%     - Ht_*         : [N x N x T] array of time-varying conditional covariance matrices.
+%     - Ht_*         : [N x N x T] dimension matrix of conditional covariances.
 %     - vcv_*        : variance-covariance matrix of the parameter estimates.
 % -------------------------------------------------------------------------
 
