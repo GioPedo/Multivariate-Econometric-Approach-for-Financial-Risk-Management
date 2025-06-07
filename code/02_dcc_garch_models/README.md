@@ -15,7 +15,7 @@ This section focuses on modeling dynamic correlations between the macro-financia
   - Step 2: rolling correlation benchmark → calls `dcc_compute_rolling`
   - Step 3: estimate all DCC-type models → runs `dcc_estimate_all_models`
   - Step 4: select best model by RMSE → uses `dcc_model_selection`
-  - Step 5: compare best DCC vs VAR-DCC using LRT → via `dcc_compare_with_VAR`
+  - Step 5: compare best DCC vs. VAR-DCC using LRT → via `dcc_compare_with_VAR`
   - Step 6: generate plots → through `dcc_generate_plots`
 
 ## 🖼️ Sample Output
@@ -25,5 +25,5 @@ This section focuses on modeling dynamic correlations between the macro-financia
   <br>
   <img src="images/DCC_Models_Parameters.png" width="550"/>
   <br>
-  <img src="images/DCC_and_Rolling_Correlations_Comparison" width="700"/>
+  <img src="images/DCC_and_Rolling_Correlations_Comparison.jpg" width="700"/>
 </p>
