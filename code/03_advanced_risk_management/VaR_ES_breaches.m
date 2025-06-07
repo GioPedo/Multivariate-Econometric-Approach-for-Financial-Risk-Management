@@ -2,7 +2,6 @@
 %% Value at Risk and Expected Shortfall Breaches
 % -----------------------------------------------------------------------------
 
-
 %% 1. VaR Breaches Identification
 % This section detects portfolio losses that fall below the estimated dynamic
 % Value-at-Risk thresholds at 95% and 99% significance levels using the 
