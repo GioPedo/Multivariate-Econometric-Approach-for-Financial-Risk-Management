@@ -1,12 +1,12 @@
-% -------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 %% Estimation of the Dynamic Conditional Correlation (DCC) model
-% -------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 % OUTPUTS:
 %     - parameters_* : estimated model parameters.
 %     - ll_*         : log-likelihood value.
 %     - Ht_*         : [N x N x T] dimension matrix of conditional covariances.
 %     - vcv_*        : numParams^2 square matrix of robust parameter covariances.
-% -------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 
 %% 1. Estimate DCC-GARCH model
 [parameters_garch, ll_garch, Ht_garch, vcv_garch] = dcc(ndx_synt, [], 1, 0, 1, 1, 0, 1, 2);
@@ -39,9 +39,9 @@ p_value_alpha_dccgarch = 2 * (1 - normcdf(abs(t_alpha_dccgarch)));
 p_value_beta_dccgarch  = 2 * (1 - normcdf(abs(t_beta_dccgarch)));
 
 
-% -------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 %% Additional DCC-type Models
-% -------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 
 % DCC-TARCH
 [parameters_tarch, ll_tarch, Ht_tarch, vcv_tarch] = dcc(ndx_synt, [], 1, 0, 1, 1, 1, 1, 1);
