@@ -17,4 +17,7 @@ DA ULTIMARE
 
 ## 🖼️ Sample Output
 
-![DCC-GARCH vs Rolling Correlation](images/dcc_vs_rolling.png)
+<p align="center">
+  <img src="images/Rolling_Window.jpg" width="700"/>
+  <br>
+</p>
