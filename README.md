@@ -62,7 +62,7 @@ contains an `images/` and `images_ex_covid/` folders that store the plots genera
 ## Main Outputs
 The repository produces key outputs based on econometric modelling and dynamic risk analysis. Results are presented from two perspectives:
 
-%% 1. Econometric Insights (DCC-GARCH vs. VAR-DCC-GARCH)
+***1. Econometric Insights (DCC-GARCH vs. VAR-DCC-GARCH)***
 The dynamic conditional correlations estimated through the DCC(1,1) and VAR(1)-DCC(1,1) models show substantial convergence over time. Excluding the most volatile months of the Covid-19 pandemic (Feb–Apr 2020) appears to:
 - **_improve the overall stability of correlations_**, with smoother transitions and fewer spikes,
 - **_reduce frequent regime shifts_** between positive and negative relationships,
@@ -76,7 +76,7 @@ Even in the absence of exogenous shocks, the trends across models remain largely
   <img src="code/02_dcc_garch_models/images_ex_covid/VAR_and_DCC_Correlations_Comparison_Ex_Covid.jpg"/>
 </p>
 
-%% 2. Risk Measures: VaR and ES (COVID vs. Ex-COVID)
+***2. Risk Measures: VaR and ES (COVID vs. Ex-COVID)***
 The model provides a set of outputs illustrating the dynamic estimation of _daily_ VaR and ES, derived through a DCC-GARCH framework integrated with Markowitz Portfolio Theory (MPT).
 The exclusion of the most volatile pandemic months (Feb–Apr 2020) reveals:
 
