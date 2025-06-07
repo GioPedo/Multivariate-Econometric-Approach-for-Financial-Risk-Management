@@ -42,7 +42,7 @@ The structure is shown below:
 └── README.md                         # This file
 ```
 **_Note_**: each main subdirectory (e.g., `01_clustering_and_macro_index`, `02_dcc_garch_models`, `03_advanced_risk_management`)
-contains an `images/` folder that stores the plots generated within that specific study section.
+contains an `images/` and `images_ex_covid/` folders that store the plots generated within that specific study section.
 
 
 ## How to Run
