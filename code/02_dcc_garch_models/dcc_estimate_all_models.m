@@ -5,7 +5,7 @@
 %     - parameters_* : estimated model parameters.
 %     - ll_*         : log-likelihood value.
 %     - Ht_*         : [N x N x T] dimension matrix of conditional covariances.
-%     - vcv_*        : variance-covariance matrix of the parameter estimates.
+%     - vcv_*        : numParams^2 square matrix of robust parameter covariances.
 % -------------------------------------------------------------------------
 
 %% 1. Estimate DCC-GARCH model
