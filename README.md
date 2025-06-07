@@ -70,6 +70,11 @@ The dynamic conditional correlations estimated through the DCC(1,1) and VAR(1)-D
 
 Even in the absence of exogenous shocks, the trends across models remain largely overlapping, but _Ex-COVID_ data displays less noisy dynamics and more consistent correlation patterns.
 
+<p align="center">
+  <img src="images/VAR_and_DCC_Correlations_Comparison.jpg"/>
+  <br>
+  <img src="images_ex_covid/VAR_and_DCC_Correlations_Comparison_Ex_Covid.jpg"/>
+</p>
 
 %% 2. Risk Measures: VaR and ES (COVID vs. Ex-COVID)
 The model provides a set of outputs illustrating the dynamic estimation of _daily_ VaR and ES, derived through a DCC-GARCH framework integrated with Markowitz Portfolio Theory (MPT).
