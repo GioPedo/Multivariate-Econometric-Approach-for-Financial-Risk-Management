@@ -60,6 +60,8 @@ contains an `images/` folder that stores the plots generated within that specifi
 
 
 ## Main Outputs
+The model provides a set of outputs illustrating the dynamic estimation of _daily_ VaR and ES, made possible by the DCC-GARCH
+framework integrated with Markowitz Portfolio Theory (MPT).
 ![Comparison of Losses with VaR and ES](code/03_advanced_risk_management/images/Comparison_of_Losses_with_VaR_and_ES.jpg)
 
 ![VaR Breaches](code/03_advanced_risk_management/images/VaR_Breaches.jpg)
