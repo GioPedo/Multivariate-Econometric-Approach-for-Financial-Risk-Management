@@ -41,7 +41,3 @@ mean_var_5 = mean(var_mov_5_dyn);
 mean_var_1 = mean(var_mov_1_dyn);
 mean_es_5  = mean(es_mov_5_dyn);
 mean_es_1  = mean(es_mov_1_dyn);
-
-
-
-
