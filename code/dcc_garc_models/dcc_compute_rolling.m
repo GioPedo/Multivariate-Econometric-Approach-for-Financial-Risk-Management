@@ -2,12 +2,12 @@
 % This script merges the macro index and asset returns,
 % then computes the 90-day rolling window correlation matrix
 
-% -------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 % INPUT (assumed preloaded):
 % - index_macro: [T x 1] macro-financial index time series
 % - msft, aapl, nvda, amzn, crwd, ea, intu, pypl: asset returns [T x 1]
 % - Fulldates: [T x 1] datetime vector
-% -------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
 
 %% 1. Merge Data
 ndx_synt = [index_macro, msft, aapl, nvda, amzn, crwd, ea, intu, pypl];
