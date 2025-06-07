@@ -18,6 +18,6 @@ DA ULTIMARE
 ## 🖼️ Sample Output
 
 <p align="center">
-  <img src="images/Rolling_Window.jpg" width="700"/>
+  <img src="images/Rolling_Window_Correlations.jpg" width="700"/>
   <br>
 </p>
