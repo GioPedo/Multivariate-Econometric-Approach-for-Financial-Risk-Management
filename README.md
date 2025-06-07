@@ -98,3 +98,5 @@ The exclusion of the most volatile pandemic months (Feb–Apr 2020) reveals:
 ![VaR Breaches](code/03_advanced_risk_management/images/VaR_Breaches.jpg)
 
 ![ES Breaches](code/03_advanced_risk_management/images/ES_Breaches.jpg)
+
+## Limits
