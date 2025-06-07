@@ -60,3 +60,8 @@ contains an `images/` folder that stores the plots generated within that specifi
 
 
 ## Main Outputs
+![Comparison of Losses with VaR and ES](images/Comparison_of_Losses_with_VaR_and_ES.jpg)
+
+![VaR Breaches](images/VaR_Breaches.jpg)
+
+![ES Breaches](images/ES_Breaches.jpg)
