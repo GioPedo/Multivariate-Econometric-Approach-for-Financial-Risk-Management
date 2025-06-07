@@ -18,7 +18,7 @@ This section focuses on modeling dynamic correlations between the macro-financia
   - Step 5: compare best DCC vs. VAR-DCC → via `dcc_compare_with_VAR.m`
   - Step 6: generate plots → through `dcc_generate_plots.m`
 
-## 🖼️ Sample Output
+## Sample Output
 
 <p align="center">
   <img src="images/Rolling_Window_Correlations.jpg" width="700"/>
