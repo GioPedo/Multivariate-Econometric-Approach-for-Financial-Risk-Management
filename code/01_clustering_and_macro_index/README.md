@@ -14,4 +14,5 @@ This section encompasses the construction of a macro-financial index and the app
 
 ## 🖼️ Sample Output
 
-![Macro-Financial Index Plot](images/macro_index_plot.png)
+![Scatter Plot of Selected Stocks](images/Cluster_Scatterplot.png)
+![Macro-Financial Index Plot](images/Index_Returns.png)
