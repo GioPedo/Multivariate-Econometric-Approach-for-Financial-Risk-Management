@@ -19,5 +19,4 @@ DA ULTIMARE
 
 <p align="center">
   <img src="images/Rolling_Window_Correlations.jpg" width="700"/>
-  <br>
 </p>
