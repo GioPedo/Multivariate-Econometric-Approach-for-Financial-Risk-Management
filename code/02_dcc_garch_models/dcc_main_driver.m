@@ -1,4 +1,4 @@
-# =============================================================================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Title: Estimation and Evaluation of DCC-GARCH Models
 % Author: Giovanni Pedone
 % Thesis Date: 17-Oct-2024
@@ -20,7 +20,7 @@
 %     Requires the MFE Toolbox by Kevin Sheppard:
 %     https://github.com/bashtage/mfe-toolbox/blob/main/multivariate/dcc.m
 %     Add the toolbox to the MATLAB path before running.
-# =============================================================================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% 1. Initialization
 clear; clc;
