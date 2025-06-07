@@ -57,3 +57,6 @@ contains an `images/` folder that stores the plots generated within that specifi
   - Financial Toolbox
   - **MFE Toolbox by Kevin Sheppard** (for `dcc.m`)  
     → [MFE Toolbox - dcc.m](https://github.com/bashtage/mfe-toolbox/blob/main/multivariate/dcc.m)
+
+
+## Main Outputs
