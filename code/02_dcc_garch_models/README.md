@@ -26,4 +26,6 @@ This section focuses on modeling dynamic correlations between the macro-financia
   <img src="images/DCC_Models_Parameters.png" width="550"/>
   <br>
   <img src="images/DCC_and_Rolling_Correlations_Comparison.jpg" width="700"/>
+  <br>
+  <img src="images/VAR_and_DCC_Correlations_Comparison.jpg" width="700"/>
 </p>
