@@ -19,7 +19,7 @@ This section encompasses the construction of a macro-financial index and the app
   <br>
   <img src="images/Cluster_Scatterplot.png" width="700"/>
   <br>
-  <img src="images/Output_Cluster.png" width="400"/>
+  <img src="images/Output_Cluster.png" width="550"/>
   <br>
   <img src="images/Index_Returns.jpg" width="700"/>
 </p>
