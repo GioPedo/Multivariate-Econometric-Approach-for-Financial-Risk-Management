@@ -30,8 +30,6 @@ You can find the required function here:
 ## Sample Output
 
 <p align="center">
-  <img src="images/Rolling_Window_Correlations.jpg" width="700"/>
-  <br>
   <img src="images/DCC_Models_Parameters.png" width="550"/>
   <br>
   <img src="images/DCC_and_Rolling_Correlations_Comparison.jpg" width="700"/>
