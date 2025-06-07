@@ -35,14 +35,14 @@ The structure is shown below:
 │ ├── VaR_ES_breaches.m               # VaR and ES exceedance visualization
 │ └── README.md
 │
-└── docs/
+├── docs/
 ├── MSc_Thesis_Giovanni_Pedone.pdf
-└── Presentation_Dissertation.pdf
+├── Presentation_Dissertation.pdf
 │
 └── README.md                         # This file
 ```
-**_Note_**: Each main subdirectory (e.g., `01_clustering_and_macro_index`, `02_dcc_garch_models`, `03_advanced_risk_management`)
-contains an `images/` folder that stores the plots generated within that specific study section._
+**_Note_**: each main subdirectory (e.g., `01_clustering_and_macro_index`, `02_dcc_garch_models`, `03_advanced_risk_management`)
+contains an `images/` folder that stores the plots generated within that specific study section.
 
 
 ## How to Run
