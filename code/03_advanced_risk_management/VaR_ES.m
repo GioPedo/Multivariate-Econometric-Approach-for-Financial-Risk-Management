@@ -2,7 +2,6 @@
 %% Value at Risk and Expected Shortfall Estimation
 % -----------------------------------------------------------------------------
 
-
 %% Definition of significance levels
 alpha_5 = 0.05;
 alpha_1 = 0.01;
