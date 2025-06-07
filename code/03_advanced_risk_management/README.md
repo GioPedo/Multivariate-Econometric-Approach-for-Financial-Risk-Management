@@ -1,6 +1,6 @@
 # Advanced Risk Management
 
-This section extends the portfolio analysis with risk metrics, focusing on the dynamic estimation of Value at Risk (VaR) and Expected Shortfall (ES) using a VAR(1)-DCC-GARCH(1,1) framework.
+This section extends the portfolio analysis with risk metrics, focusing on the dynamic estimation of Value at Risk (VaR) and Expected Shortfall (ES) using a **parametric (or _variance–covariance_) approach** within a VAR(1)-DCC-GARCH(1,1) framework.
 
 ## Overview
 
