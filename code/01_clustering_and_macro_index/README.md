@@ -15,6 +15,6 @@ This section encompasses the construction of a macro-financial index and the app
 ## 🖼️ Sample Output
 
 <p align="center">
-  <img src="images/Cluster_Scatterplot.png" width="400"/>
-  <img src="images/Index_Returns.jpg" width="400"/>
+  <img src="images/Cluster_Scatterplot.png" width="600"/>
+  <img src="images/Index_Returns.jpg" width="500"/>
 </p>
