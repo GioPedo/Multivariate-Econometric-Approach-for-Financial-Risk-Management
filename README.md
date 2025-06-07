@@ -40,10 +40,10 @@ The structure is shown below:
 └── Presentation_Dissertation.pdf
 │
 └── README.md                         # This file
-
-**Note**: Each main subdirectory (e.g., `01_clustering_and_macro_index`, `02_dcc_garch_models`, `03_advanced_risk_management`) contains
-an `images/` folder that stores the plots generated within that specific study section._
 ```
+**_Note_**: Each main subdirectory (e.g., `01_clustering_and_macro_index`, `02_dcc_garch_models`, `03_advanced_risk_management`)
+contains an `images/` folder that stores the plots generated within that specific study section._
+
 
 ## How to Run
 
