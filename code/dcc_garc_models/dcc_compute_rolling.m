@@ -35,8 +35,7 @@ rolling_corr_table.Properties.VariableNames = stocks_names;
 # =============================================================================
 %% 📈 Final Plot: 90-Day Rolling Window Correlations
 # =============================================================================
-
-figure(13);
+figure;
 stackedplot(rolling_corr_timetable, ...
     'Color', [0.6350 0.0780 0.1840], ...
     'LineWidth', 2);
