@@ -2,9 +2,9 @@
 %% Rolling correlations (90-day) between macro index and assets
 % -----------------------------------------------------------------------------
 % INPUT (assumed preloaded):
-% - index_macro: [T x 1] macro-financial index time series
-% - msft, aapl, nvda, amzn, crwd, ea, intu, pypl: asset returns [T x 1]
-% - Fulldates: [T x 1] datetime vector
+%     - index_macro: [T x 1] macro-financial index time series
+%     - msft, aapl, nvda, amzn, crwd, ea, intu, pypl: asset returns [T x 1]
+%     - Fulldates: [T x 1] datetime vector
 % -----------------------------------------------------------------------------
 
 %% 1. Merge Data
