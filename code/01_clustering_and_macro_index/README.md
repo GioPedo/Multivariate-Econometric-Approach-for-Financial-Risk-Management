@@ -15,7 +15,11 @@ This section encompasses the construction of a macro-financial index and the app
 ## Sample Output
 
 <p align="center">
+  <img src="images/Elbow_Method_Optimal_K.png" width="700"/>
+  <br>
   <img src="images/Cluster_Scatterplot.png" width="700"/>
+  <br>
+  <img src="images/Output_Cluster.png" width="400"/>
   <br>
   <img src="images/Index_Returns.jpg" width="700"/>
 </p>
