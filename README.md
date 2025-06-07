@@ -3,7 +3,7 @@ This repository contains a **multivariate econometric study** that has been appl
 
 Starting with a set of securities selected through a _machine learning_ (ML) technique and an aggregated macroeconomic-financial index, the study examines the _evolution of the pairwise correlations_ between the purpose-built index and each security over a 5-year horizon (2019-2024), and applies the final results to estimate the _Value at Risk_ (VaR) and the _Expected Shortfall_ (ES) of an EW portfolio.
 
-In addition, the research is carried out on the same dataset, but excluding the most turbulent months of the COVID-19 pandemic in order to analyse _differences_ in both econometric and risk management results.
+In addition, the research is carried out on the same dataset, but excluding the most turbulent months of the COVID-19 pandemic (_Feb-Apr 2020_) in order to analyse _differences_ in both econometric and risk management results.
 
 
 ## Repository Structure
@@ -60,8 +60,32 @@ contains an `images/` and `images_ex_covid/` folders that store the plots genera
 
 
 ## Main Outputs
-The model provides a set of outputs illustrating the dynamic estimation of _daily_ VaR and ES, made possible by the DCC-GARCH
-framework integrated with Markowitz Portfolio Theory (MPT).
+The repository produces key outputs based on econometric modelling and dynamic risk analysis. Results are presented from two perspectives:
+
+%% 1. Econometric Insights (DCC-GARCH vs. VAR-DCC-GARCH)
+The dynamic conditional correlations estimated through the DCC(1,1) and VAR(1)-DCC(1,1) models show substantial convergence over time. Excluding the most volatile months of the Covid-19 pandemic (Feb–Apr 2020) appears to:
+- **_improve the overall stability of correlations_**, with smoother transitions and fewer spikes,
+- **_reduce frequent regime shifts_** between positive and negative relationships,
+- allow for **_more accurate modelling_** of second-order conditional moments.
+
+Even in the absence of exogenous shocks, the trends across models remain largely overlapping, but _Ex-COVID_ data displays less noisy dynamics and more consistent correlation patterns.
+
+
+%% 2. Risk Measures: VaR and ES (COVID vs. Ex-COVID)
+The model provides a set of outputs illustrating the dynamic estimation of _daily_ VaR and ES, derived through a DCC-GARCH framework integrated with Markowitz Portfolio Theory (MPT).
+The exclusion of the most volatile pandemic months (Feb–Apr 2020) reveals:
+
+- **_higher potential losses_** under both VaR and ES at 95% and 99% confidence levels,
+- a more **_conservative risk profile_** detected by Expected Shortfall (ES), especially during stress conditions,
+- evidence that **_ES is more precise_** than VaR in capturing tail risk, particularly post-COVID-peak.
+
+| Measure   | Covid     | Ex-Covid  |
+|-----------|-----------|-----------|
+| **VaR₉₅%**  | −271.34   | −338.05 |
+| **VaR₉₉%**  | −378.82   | −466.59 |
+| **ES₉₅%**   | −337.24   | −416.86 |
+| **ES₉₉%**   | −423.27   | −530.50 |
+
 ![Comparison of Losses with VaR and ES](code/03_advanced_risk_management/images/Comparison_of_Losses_with_VaR_and_ES.jpg)
 
 ![VaR Breaches](code/03_advanced_risk_management/images/VaR_Breaches.jpg)
