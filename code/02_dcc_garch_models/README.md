@@ -19,7 +19,7 @@ This section focuses on modeling dynamic correlations between the macro-financia
   - Step 6: generate plots → through `dcc_generate_plots.m`
 
 
-### Toolbox Requirement
+## Toolbox Requirement
 
 This section relies on the **MFE Toolbox** by Kevin Sheppard for DCC-GARCH model estimation.  
 You can find the required function here:  
