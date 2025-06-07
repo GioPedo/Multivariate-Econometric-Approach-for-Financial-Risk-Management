@@ -2,8 +2,8 @@
 %% DCC-GARCH Model Selection by RMSE
 % -----------------------------------------------------------------------------
 % OUTPUTS:
-%   - Table with summed RMSE values for each model.
-%   - Index of the model with minimum RMSE (best fit).
+%     - table with summed RMSE values for each model.
+%     - index of the model with minimum RMSE (best fit).
 % -----------------------------------------------------------------------------
 
 %% RMSE comparison of multivariate models
