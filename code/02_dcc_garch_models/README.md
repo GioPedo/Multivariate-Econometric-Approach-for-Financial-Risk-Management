@@ -23,7 +23,7 @@ This section focuses on modeling dynamic correlations between the macro-financia
 
 This section relies on the **MFE Toolbox** by Kevin Sheppard for DCC-GARCH model estimation.  
 You can find the required function here:  
-- [dcc.m - MFE Toolbox](https://github.com/bashtage/mfe-toolbox/blob/main/multivariate/dcc.m)
+- [MFE Toolbox - dcc.m](https://github.com/bashtage/mfe-toolbox/blob/main/multivariate/dcc.m)
 
 ➡️ _Make sure to add the toolbox to the MATLAB path before running any script._
 
