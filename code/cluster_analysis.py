@@ -114,9 +114,9 @@ for k in range(2, 20):
 # 📊 VISUALIZATION SECTION
 # =============================================================================
 # This section includes plots to analyze the clustering results:
-# - Elbow Method to determine optimal number of clusters
-# - Scatter plot of Return vs Volatility with color-coded clusters
-# - Annotation of selected tickers and interpretation of cluster centroids
+#     - Elbow Method to determine optimal number of clusters
+#     - Scatter plot of Return vs Volatility with color-coded clusters
+#     - Annotation of selected tickers and interpretation of cluster centroids
 
 
 # -----------------------------------------------------------------------------
