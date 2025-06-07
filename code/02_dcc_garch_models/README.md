@@ -12,11 +12,11 @@ This section focuses on modeling dynamic correlations between the macro-financia
 
 - `dcc_main_driver.m`: main script for executing the complete workflow:
   - Step 1: initialization (`clear`, `clc`)
-  - Step 2: rolling correlation benchmark → calls `dcc_compute_rolling`
-  - Step 3: estimate all DCC-type models → runs `dcc_estimate_all_models`
-  - Step 4: select best model by RMSE → uses `dcc_model_selection`
-  - Step 5: compare best DCC vs. VAR-DCC → via `dcc_compare_with_VAR`
-  - Step 6: generate plots → through `dcc_generate_plots`
+  - Step 2: rolling correlation benchmark → calls `dcc_compute_rolling.m`
+  - Step 3: estimate all DCC-type models → runs `dcc_estimate_all_models.m`
+  - Step 4: select best model by RMSE → uses `dcc_model_selection.m`
+  - Step 5: compare best DCC vs. VAR-DCC → via `dcc_compare_with_VAR.m`
+  - Step 6: generate plots → through `dcc_generate_plots.m`
 
 ## 🖼️ Sample Output
 
