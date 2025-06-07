@@ -2,7 +2,6 @@
 %% Value at Risk and Expected Shortfall Estimation
 % -----------------------------------------------------------------------------
 
-
 %% Equally-Weighted portfolio definition without transaction costs,
 %% with total investment of $10,000
 Weights         = ones(1, 9) / 9;
