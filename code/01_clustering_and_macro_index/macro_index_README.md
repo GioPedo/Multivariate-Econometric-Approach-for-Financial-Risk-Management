@@ -24,7 +24,7 @@ These indicators capture different dimensions of market stress, inflation and ri
 ## Methodology
 
 ### 1. Data Preprocessing
-- Raw data is loaded from an Excel file (`Macro_Variables.xlsx`) and FRED (via `fetch`).
+- Raw data is loaded from an Excel file and FRED (via `fetch`).
 - Price series are converted to returns or spreads (e.g., `Libor - OIS`).
 - The CPI index is interpolated to daily frequency using linear interpolation.
 
