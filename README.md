@@ -39,6 +39,7 @@ The structure is shown below:
 ├── MSc_Thesis_Giovanni_Pedone.pdf
 ├── Presentation_Dissertation.pdf
 │
+├── FUTURE_RESEARCH.md                # Future directions and model improvements
 └── README.md                         # This file
 ```
 **_Note:_** each main subdirectory (e.g., `01_clustering_and_macro_index`, `02_dcc_garch_models`, `03_advanced_risk_management`)
