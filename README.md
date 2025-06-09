@@ -104,13 +104,17 @@ The exclusion of the most volatile pandemic months (Feb–Apr 2020) reveals:
 Despite the robustness of the implemented methodology, several limitations must be acknowledged:
 
 - _Variable Scope_
+  
   The inclusion/exclusion of additional macro-financial variables could significantly alter correlation dynamics and risk estimations.
 
 - _Computational Burden_
+
   DCC-GARCH models are computationally intensive, especially in high-dimensional settings or during extended sample periods.
 
 - _Normality Assumption_
+
   The model relies on the assumption of multivariate normality, which may not fully capture the fat tails and asymmetries observed in financial returns.
 
 - _Simplified Portfolio Construction_
+
   The portfolio assumes equal weights and ignores transaction costs, potentially oversimplifying real-world investment conditions.
